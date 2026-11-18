@@ -1,0 +1,11 @@
+# SYNTHETIC EXAMPLE DATA - not real laboratory readings.
+# Simulated absorbances at 517 nm (numpy seed 2026) from a Hill curve with
+# true IC50 = 45 ug/mL and Hill slope = 1.3, plus random noise.
+# Concentration 0 is the DPPH control (no extract); other rows are extract concentrations.
+concentration,rep1,rep2,rep3
+0,0.794,0.802,0.785
+10,0.712,0.703,0.692
+25,0.538,0.545,0.538
+50,0.367,0.378,0.376
+100,0.207,0.206,0.209
+200,0.092,0.095,0.106
